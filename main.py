@@ -81,7 +81,7 @@ def openyxlExcel(filePath,data):
     workbook.save(filePath)
 
 if __name__ == "__main__":
-    for i in range(20):
+    for i in range(10000):
         batch = 'BATCH01'
         extmid = randomStr(10)
         #生成新文件名
